@@ -20,6 +20,7 @@ Review process:
 1. Ensure the code is able to run efficiently using `references/performance.md`.
 1. Quick validation of Swift code using `references/swift.md`.
 1. Final code hygiene check using `references/hygiene.md`.
+1. If the project targets tvOS, validate tvOS-specific patterns including focus engine usage, 10-foot UI layout, Siri Remote interaction, unavailable APIs, and Top Shelf extensions using `references/tvos.md`.
 
 If doing a partial review, load only the relevant reference files.
 
@@ -105,4 +106,5 @@ End of example.
 - `references/performance.md` - optimizing SwiftUI code for maximum performance.
 - `references/data.md` - data flow, shared state, and property wrappers.
 - `references/swift.md` - tips on writing modern Swift code, including using Swift Concurrency effectively.
+- `references/tvos.md` - tvOS focus engine, Siri Remote, 10-foot UI, Top Shelf, media playback, multi-user, and platform differences.
 - `references/views.md` - view structure, composition, and animation.
